@@ -1,0 +1,18 @@
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 900;
+    line-height: 1.2;
+
+  &-xxl {
+    font-size: 40px;
+  }
+
+  &-xl {
+    font-size: 35px;
+  }
+
+  &-lg {
+    font-size: 30px;
+  }
+}

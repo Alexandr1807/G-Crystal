@@ -1,0 +1,32 @@
+.callback {
+
+  background-image: url(../../assets/img/4.jpeg);
+  background-attachment: fixed;
+
+  &__wrapper {
+    padding: 60px;
+    background-color: rgba(0,0,0,0.7);
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  &__text {
+    color: #ddd;
+    font-size: $font-size-sm;
+    font-weight: 500;
+  }
+
+  &__button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

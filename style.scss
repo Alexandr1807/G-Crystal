@@ -1,0 +1,17 @@
+@import "scss/variables.scss";
+
+@import "scss/vendor/normalize.scss";
+
+@import "scss/mixins/media-queries.scss";
+@import "scss/vendor/global.scss";
+
+@import "scss/elements/container.scss";
+@import "scss/elements/button.scss";
+@import "scss/elements/title.scss";
+
+@import "scss/sections/header.scss";
+@import "scss/sections/hero.scss";
+@import "scss/sections/catalog.scss";
+@import "scss/sections/news.scss";
+@import "scss/sections/callback.scss";
+@import "scss/sections/product.scss";
