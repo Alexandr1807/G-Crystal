@@ -539,7 +539,7 @@ h1, h2, h3, h4 {
   background: #243859;
   height: 650px;
   position: relative;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(../../assets/img/5.jpeg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(assets/img/5.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0% 5%;
@@ -568,7 +568,7 @@ h1, h2, h3, h4 {
 }
 
 .catalog {
-  background-image: url(../../assets/img/6.jpg);
+  background-image: url(assets/img/6.jpg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -655,7 +655,7 @@ h1, h2, h3, h4 {
 }
 
 .news {
-  background-image: url(../../assets/img/6.jpg);
+  background-image: url(assets/img/6.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -757,7 +757,7 @@ h1, h2, h3, h4 {
 }
 
 .callback {
-  background-image: url(../../assets/img/4.jpeg);
+  background-image: url(assets/img/4.jpeg);
   background-attachment: fixed;
 }
 .callback__wrapper {
@@ -784,7 +784,7 @@ h1, h2, h3, h4 {
 }
 
 .product {
-  background-image: url(../../assets/img/6.jpg);
+  background-image: url(assets/img/6.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
