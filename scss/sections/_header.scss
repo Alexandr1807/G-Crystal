@@ -6,8 +6,23 @@
   }
 
   &__top {
-    width: 100%;
     background-color: $color-a;
+
+    &-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-search {
+      width: 300px;
+      height: 20px;
+      font-size: 15px;
+      padding: 5px;
+      outline: none;
+      border-radius: 5px;
+      border: none;
+    }
   }
 
   &__nav-list {

@@ -13,26 +13,31 @@
 <body>
   <header class="header">
     <div class="header__inner">
-      <nav class="header__top">
-        <div class="container">
-          <ul class="header__nav-list">
-            <li class="header__nav-item">
-            <a href="/" class="header__nav-link">Главная</a>
-            </li>
-            <li class="header__nav-item">
-            <a href="/" class="header__nav-link">Каталог</a>
-            </li>
-            <li class="header__nav-item">
-            <a href="/" class="header__nav-link">Новости</a>
-            </li>
-            <li class="header__nav-item">
-            <a href="/" class="header__nav-link">Контакты</a>
-            </li>
-          </ul>
+      <div class="header__top">
+        <div class="container header__top-container">
+          <nav>
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+              <a href="/" class="header__nav-link">Главная</a>
+              </li>
+              <li class="header__nav-item">
+              <a href="/catalog.html" class="header__nav-link">Каталог</a>
+              </li>
+              <li class="header__nav-item">
+              <a href="/" class="header__nav-link">Новости</a>
+              </li>
+              <li class="header__nav-item">
+              <a href="/contacts.html" class="header__nav-link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <form action="">
+            <input class="header__top-search" type="search" placeholder="Поиск">
+          </form>
         </div>
-      </nav>
+      </div>
       <div class="header__bottom container">
-        <a href="" class="header__logo">
+        <a href="/" class="header__logo">
         G-Crystal
         </a>
         <div class="header__bottom-right">
@@ -108,7 +113,17 @@
             </div>
             <div class="catalog__card-content">
             <h3 class="catalog__card-title title title-lg">Люстра</h3>
-            <p class="catalog__card-text">Какой то текст, может быть длинным или не может быть</p>
+            <div class="catalog__card-container">
+              <div class="catalog__card-width">
+                40см
+              </div>
+              <div class="catalog__card-height">
+                36см
+              </div>
+            </div>
+            <div class="catalog__card-price">
+              19 900 Руб
+            </div>
             </div>
             <button class="button catalog__card-button" href="">Подробнее</button>
           </a>
@@ -146,10 +161,10 @@
       <a class="button catalog__button button-b" href="">Посмотреть все серии</a>
     </div>
   </div>
-</section>
-<section class="callback">
-  <div class="callback__wrapper">
-    <div class="callback__inner container">
+  </section>
+  <section class="callback">
+    <div class="callback__wrapper">
+      <div class="callback__inner container">
         <div class="callback__content">
           <h2 class="callback__title title title-xl">Позвоните прямо сейчас</h2>
           <p class="callback__text">Или оставьте свой номер и мы свяжемся с вами в ближайшее время</p>
@@ -231,5 +246,45 @@
       </div>
     </div>
   </section>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__content">
+            <h1 class="footer__content-title title title-xl">
+              Интересный заголовок
+            </h1>
+            <p class="footer__content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus ab laborum repellendus amet eveniet, sint unde nostrum obcaecati, deleniti quis fuga impedit voluptatibus neque. Veniam ducimus autem harum ut.</p>
+          </div>
+          <form class="footer__form">
+            <h3 class="footer__form-title">Задайте вопрос</h3>
+            <p class="footer__form-text">Задайте интересующий ваc вопрос и мы свяжемся с вами в ближайшее время</p>
+            <textarea class="footer__form-textarea" name="" id="" cols="30" rows="3" placeholder="Напишите свой вопрос"></textarea>
+            <div class="footer__form-input-container">
+              <input class="footer__form-name" type="text" placeholder="Ваше имя">
+              <input class="footer__form-number" type="tel" placeholder="Ваш номер телефона">
+            </div>
+            <button class="button footer__form-button" type="submit">Отправить</button>
+          </form>
+        </div>
+        <nav>
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a href="" class="footer__nav-link">Главная</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="" class="footer__nav-link">Каталог</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="" class="footer__nav-link">Новости</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="" class="footer__nav-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
